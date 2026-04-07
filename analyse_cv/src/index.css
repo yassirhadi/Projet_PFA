@@ -1,0 +1,21 @@
+/* src/index.css — directives Tailwind obligatoires */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar discrète */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0f172a; }
+::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #14b8a6; }
+
+/* Sélection de texte */
+::selection { background: #14b8a620; color: #2dd4bf; }
+
+/* line-clamp utilitaire */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
