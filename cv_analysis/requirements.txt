@@ -1,0 +1,20 @@
+# API
+fastapi
+uvicorn[standard]
+
+# Extraction CV
+pymupdf
+python-docx
+pytesseract
+pdf2image
+
+# NLP / ML
+scikit-learn
+pandas
+numpy
+sentence-transformers
+spacy
+
+# Utilitaires
+joblib
+nltk
